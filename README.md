@@ -48,7 +48,7 @@ This repository is a complete collection of my **Java learning journey**, where 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shreya227108/java_Complete_Course.git
+   [git clone https://github.com/shreya227108/java_Complete_Course.git](https://github.com/shreya227108/Java_Complete_Course)
    ```
 2. Open any `.java` file in your favorite IDE (IntelliJ IDEA, Eclipse, VS Code).
 3. Run the program and try modifying it for practice.
