@@ -1,0 +1,78 @@
+1.Introduction to Java
+-Java is an high-level, object-oriented, and platform-independent programming language developed in 1995 by James Gosling at sun Microsystems.
+-It is one of the most widely used programming languages because of its simplicity, portability, security, and robustness.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+2.Key Features of Java
+-Simple → Easy to learn and use, similar to C/C++ but with fewer complexities.
+-Object-Oriented → Everything in Java is treated as an object (focuses on real-world concepts).
+-Platform Independent → Java code runs on any machine with the JVM (Java Virtual Machine). Write Once, Run Anywhere (WORA).
+-Secure → Provides strong security (no direct memory access, has built-in security features).
+-Robust → Handles errors effectively and manages memory automatically (Garbage Collection).
+-Multithreaded → Supports multiple tasks running simultaneously.
+-Distributed → Java can be used in distributed applications (like web apps, cloud systems).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.Where is Java Used?
+Desktop Applications
+Web Applications
+Mobile Apps (especially Android)
+Enterprise Applications (like banking systems)
+Cloud & Distributed Systems
+Game Development
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.How Java works
+-The human written source code in compiled into byte code which contain binary language code understandable by machines and then this code is interpreted to machine code.
+-Digram
+            Java Source Code (.java)
+                    |
+                    v
+            Java Compiler (javac)
+                    |
+                    v
+            Bytecode (.class)
+                    |
+                    v
+            Java Virtual Machine (JVM)
+                    |
+                    v
+                  Output
+
+-------------------------------------------------------------------------------------------------
+
+5.JDK-Java Development Kit
+-This kit contains tools used for developing and running java programs.
+
+6.JRE-Java Runtime Environment
+-This creates an environment in your machine to execute programs developedin Java.
+
+7.Basic structure of java program
+- 
+package com.company;(Group classes)
+
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Hello World");
+    }
+}
+
+8.Functions
+A function is a block of code which takes some input, performs some operations and returns some output. 
+The functions stored inside classes are called methods.
+The function we have used is called main.
+
+9.Class
+A class is a group of objects which have common properties. A class can have some properties and functions (called methods).
+The class we have used is Main.
+
+10.Naming Conventions
+-for classes we use PascalConvension.
+-Ex: Main, MyScanner, MyEmployee.
+
+11.for functions and variables we use CamelCaseConventions.
+-Ex: main, myScanner, myMarks.
+
