@@ -1,0 +1,7 @@
+1.Try to declare meaningful variables of each type.
+Eg - a variable named age should be a numeric type (int or float) not byte.
+
+2.Make a program that takes the radius of a circle as input,
+calculates its area and prints it as output to the user.
+
+3.Make a program that prints the table of a number that is input by the user.
