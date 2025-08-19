@@ -1,0 +1,71 @@
+Variables and Data Types in Java
+
+1.Variables
+-A variable in Java is like a container that holds data.
+-It has a name (identifier).
+-It has a type (what kind of data it can store).
+-Its value can change during program execution.
+-Syntax:
+    datatype variableName = value;
+
+----------------------------------------------------------------------------------------------
+
+2.Data Types in Java
+-Java is a strongly typed language, meaning every variable must have a data type.
+-Java data types are divided into two main categories:
+
+A.Primitive Data Types
+-These are the basic types built into Java (8 in total).
+| Data Type   | Size (in bits) | Example Value | Description                         |
+| ----------- | -------------- | ------------- | ----------------------------------- |
+| byte        | 8              | 100           | Small integers (-128 to 127)        |
+| short       | 16             | 32000         | Larger integers (-32,768 to 32,767) |
+| int         | 32             | 100000        | Commonly used for integers          |
+| long        | 64             | 999999999L    | Very large integers                 |
+| float       | 32             | 3.14f         | Decimal numbers (single precision)  |
+| double      | 64             | 3.14159       | Decimal numbers (double precision)  |
+| char        | 16             | 'A'           | Single character                    |
+| boolean     | 1 (logical)    | true/false    | Stores only `true` or `false`       |
+
+
+B.Non-Primitive (Reference) Data Types
+-These are derived types created by programmers.
+    Examples:
+        String (sequence of characters)
+        Arrays
+        Classes & Objects
+
+------------------------------------------------------------------------------------------------------------------------
+
+3.Constants
+-A constant is a variable in Java which has a fixed value i.e. it cannot be assigned a different value once assigned.
+-Ex:
+    final float PI = 3.14F;
+-The constant value assigned to variables are nothing but Literals.
+
+------------------------------------------------------------------------------------------------------------------------
+
+4.Keywords
+-Words which are reserves and used by the java compiler. they cannot be used as an identifier.
+
+------------------------------------------------------------------------------------------------------------------------
+
+5.User Input
+-In Java, to take input from the user, we commonly use the Scanner class
+-Steps to Take User Input
+    1.Import Scanner class
+        -import java.util.Scanner;
+
+    2.Create a Scanner object
+        -Scanner sc = new Scanner(System.in);
+
+-Use methods to read input
+| Method          | Data Type Read       | Example            |
+| --------------- | -------------------- | ------------------ |
+| `nextInt()`     | int                  | `sc.nextInt()`     |
+| `nextDouble()`  | double               | `sc.nextDouble()`  |
+| `nextFloat()`   | float                | `sc.nextFloat()`   |
+| `nextLine()`    | String (full line)   | `sc.nextLine()`    |
+| `next()`        | String (single word) | `sc.next()`        |
+| `nextBoolean()` | boolean              | `sc.nextBoolean()` |
+
