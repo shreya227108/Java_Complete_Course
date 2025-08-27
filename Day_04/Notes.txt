@@ -1,0 +1,69 @@
+1.Loops in Java
+-A loop is used to repeat a block of code multiple times until a condition becomes false.
+ They help avoid writing the same code again and again.
+
+1. for loop
+-Used when we know the number of iterations in advance.
+-Syntax:
+ for(initialization; condition; update){
+     // code to be executed
+ }
+-------------------------------------------------------------------------------------------
+
+2. while loop
+-Used when we don’t know how many times the loop will run, and it depends on a condition.
+-It keeps getting executed until the condition gets false.
+-Syntax:
+while(condition){
+    // code to be executed
+}
+--------------------------------------------------------------------------------------------
+
+3. do-while loop
+-Similar to while, but executes at least once (condition is checked after execution).
+-Syntax:
+do {
+    // code to be executed
+} while(condition);
+-------------------------------------------------------------------------------------------
+
+4. for-each loop (Enhanced for loop)
+-Used to iterate over arrays/collections.
+-Syntax:
+for(type variable : array){
+    // code
+}
+
+=============================================================================================
+
+2.Control Statements in Loops
+-Sometimes we need to alter the normal flow of loops.
+
+1.break → exits the loop immediately.
+for(int i = 1; i <= 5; i++){
+    if(i == 3) break;
+    System.out.println(i);
+}
+// Output: 1 2
+
+-------------------------------------------------------------
+
+2.continue → skips current iteration and goes to next.
+for(int i = 1; i <= 5; i++){
+    if(i == 3) continue;
+    System.out.println(i);
+}
+// Output: 1 2 4 5
+
+--------------------------------------------------------------
+
+3.nested loops → a loop inside another loop.
+
+for(int i = 1; i <= 3; i++){
+    for(int j = 1; j <= 3; j++){
+        System.out.println(i + " " + j);
+    }
+}
+
+==============================================================================================
+
