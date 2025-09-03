@@ -1,0 +1,5 @@
+Print the following patterns
+
+1.Number Pyramid
+2.Palindrome
+3.Rhombus
