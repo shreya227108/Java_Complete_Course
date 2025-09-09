@@ -1,1 +1,4 @@
+Print the following patterns
 
+1.Butterfly
+2.Diamond
