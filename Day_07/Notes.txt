@@ -1,0 +1,50 @@
+Methods/Functions in java
+
+1.Functions-
+-A function is a block of code that performs a specific task.
+
+-Why are functions used?
+    -If some functionality is performed at multiple places in software, then  rather than writing the same code, again and again,
+    we create a function  and call it everywhere. This helps reduce code redundancy.
+    -Functions make maintenance of code easy as we have to change at one  place if we make future changes to the functionality.
+    -Functions make the code more readable and easy to understand.
+
+-Syntax
+        return-type function_name (parameter 1, parameter2,  …… parameter n){
+            //function_body
+        }
+        return-type
+
+-The return type of function is the data type of the variable that function returns.
+
+-When a function does not return any value, in that case the return type of the  function is ‘void’.
+
+-function_name
+    -It is the unique name of that function.
+    -It is always recommended to declare a function before it is used.
+
+-Parameters
+    -A function can take some parameters as inputs. These parameters are specified  along with their data types.
+
+-main function
+    -The main function is a special function as the computer starts running the code  from the beginning of the main function.
+    Main function serves as the entry  point for the program.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+2.Methods(DRY =Don't Repeat Yourself)
+-sometimes our program grows in size and we want to separate the logic of main method to other methods.
+-A method is a function written inside a class.
+-Since Java is an Object oriented language, we need to write the method inside same class.
+-Syntax of a Method
+        dataType name(){
+            //Method body
+        }
+-Calling a Method
+    -A method can be called by creating an object of the class in which the method exist followed by the method call.
+    -Ex:
+        Calc obj = new calc(); -> Object Creation
+        obj.mySum(a,b); +Method call upon an object
+    -The values from the method call (a and b) are copied to the a and b of the function mySum, Thus even if we modify the values a and b
+     inside the method, the values in the main method will not Change.
+
