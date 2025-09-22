@@ -1,0 +1,25 @@
+#Arrays
+
+-An array in Java is a collection of elements of the same data type stored in contiguous memory locations.
+-It is like a container that holds multiple values under one name.
+-Each value in an array is called an element.
+-Each element can be accessed using an index (starting from 0).
+
+-Declaration & Initialization
+        int[] arr;               // declaration
+        arr = new int[5];        // memory allocation
+        int[] arr = {10, 20, 30}; // direct initialization
+
+-Accessing Elements
+        System.out.println(arr[0]); // first element
+
+-Properties
+        -Fixed size (cannot change after creation).
+        -Homogeneous (same type elements only).
+        -Index-based (fast access: O(1)).
+        -Default values: int → 0, boolean → false, object → null.
+
+-Types of Arrays
+        -Single-Dimensional → int[] arr = new int[5];
+        -Multi-Dimensional → int[][] mat = {{1,2},{3,4}};
+
