@@ -1,0 +1,39 @@
+#2D Array
+
+-A 2D array (two-dimensional array) is like a table or a matrix with rows and columns.
+ It’s essentially an array of arrays.
+-1D array → a single row of boxes.
+-2D array → a grid of boxes (rows × columns).
+
+-Declaration
+       type[][] matrix = new type[rows][columns];
+       Ex:
+       int[] matrix = new int[3][5];
+ Here,
+     int → type of data the array will hold
+     [][] → indicates it’s a 2D array
+     matrix → variable name
+     new → keyword
+-------------------------------------------------------------
+
+-Memory Allocation
+-Method 1: Specify rows and columns directly
+    matrix = new int[3][4];  // 3 rows, 4 columns
+
+-Method 2: Declare and initialize at the same time
+    int[][] matrix = new int[3][4];
+
+-Method 3: Initialize with values
+    int[][] matrix = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+------------------------------------------------------------------------------------
+
+-Accessing Elements
+    matrix[0][1] = 10;                  // sets element in row 0, column 1 to 10
+    System.out.println(matrix[0][1]);   // prints the value
+
+-----------------------------------------------------------------------------------
+
