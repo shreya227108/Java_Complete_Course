@@ -1,0 +1,63 @@
+#Strings
+-In Java, a String is a sequence of characters (like "hello", "Java123", "A").
+-It is not a primitive data type like int or char. Instead, it’s a class provided in the java.lang package.
+-Strings are immutable → once created, they cannot be changed.
+
+1.Ways to Create Strings
+-Using String literals
+    String s1 = "Hello";
+-Using the new keyword
+    String s2 = new String("Hello");
+---------------------------------------------------------------------
+
+2.String Immutability
+-When you modify a String, a new object is created.
+-Example:
+    String s = "Hello";
+    s = s.concat(" World");  // creates a new String "Hello World"
+-----------------------------------------------------------------------
+
+3.Important String Methods
+-The String class provides many useful methods.
+Some common ones:
+String str = "Java Programming";
+
+str.length();            // 16
+str.charAt(5);           // 'P'
+str.toUpperCase();       // "JAVA PROGRAMMING"
+str.toLowerCase();       // "java programming"
+str.substring(5);        // "Programming"
+str.substring(0, 4);     // "Java"
+str.contains("Java");    // true
+str.equals("java");      // false (case-sensitive)
+str.equalsIgnoreCase("java"); // true
+str.indexOf("Pro");      // 5
+str.replace("Java", "C++");   // "C++ Programming"
+str.trim();              // removes leading & trailing spaces
+---------------------------------------------------------------------------------------
+
+4.String Comparison
+-There are two ways to compare Strings:
+    1.Using == → compares memory reference (addresses).
+          String a = "Hello";
+          String b = "Hello";
+          System.out.println(a == b); // true (same object in String Pool)
+
+    2.Using .equals() → compares content.
+          String a = new String("Hello");
+          String b = new String("Hello");
+          System.out.println(a == b);      // false (different objects)
+          System.out.println(a.equals(b)); // true (same content)
+----------------------------------------------------------------------------------------
+
+5.Mutable Strings
+-Since String is immutable, if you want to modify a string many times, you should use:
+     -StringBuilder (faster, not thread-safe)
+     -StringBuffer (slower, but thread-safe)
+
+ Example:
+     StringBuilder sb = new StringBuilder("Hello");
+     sb.append(" World");
+     System.out.println(sb);  // "Hello World"
+
+========================================================================================
