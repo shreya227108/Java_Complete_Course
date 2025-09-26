@@ -1,0 +1,25 @@
+#String Builder
+
+What is StringBuilder?
+-StringBuilder is a mutable sequence of characters.
+-Unlike String, which is immutable (cannot be changed once created), StringBuilder objects can be modified without creating new objects.
+-It’s part of the java.lang package (so no need to import explicitly).
+
+Why do we need StringBuilder?
+-In Java, every time you modify a String (like concatenation +), a new object is created.
+-This wastes memory and slows performance in loops.
+-StringBuilder avoids this problem because it modifies the same object.
+
+Common Methods of StringBuilder
+-append(String s) → Adds text at the end.
+-insert(int index, String s) → Inserts text at a given position.
+-replace(int start, int end, String s) → Replaces part of the string.
+-delete(int start, int end) → Deletes characters between indexes.
+-reverse() → Reverses the string.
+-capacity() → Returns the current capacity (memory allocated).
+-charAt(int index), setCharAt(int index, char c) → Get/set a character.
+
+Key Difference
+-String → Immutable (slow for repeated changes).
+-StringBuilder → Mutable (fast, not thread-safe).
+-StringBuffer → Mutable & thread-safe (synchronized, but slower).
