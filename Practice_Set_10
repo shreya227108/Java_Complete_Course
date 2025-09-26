@@ -1,0 +1,11 @@
+Try Solving all the String questions with StringBuilder.
+
+1.Take an array of Strings input from the user & find the cumulative (combined) length of all those strings.
+2.Input a string from the user. Create a new string called ‘result’ in which you will replace the letter ‘e’ in the original string with letter ‘i’.
+  Example :
+  original = “eabcdef’ ; result = “iabcdif”
+  Original = “xyz” ; result = “xyz”
+3.Input an email from the user. You have to create a username from the email by deleting the part that comes after ‘@’. Display that username to the user.
+  Example :
+  email = “apnaCollegeJava@gmail.com” ; username = “apnaCollegeJava”
+  email = “helloWorld123@gmail.com”; username = “helloWorld123”
