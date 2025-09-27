@@ -1,0 +1,68 @@
+#Operators & Binary Number System in Java
+
+-Operators in Java
+Operators are special symbols that perform operations on variables and values.
+1. Arithmetic Operators
+    + (Addition)
+    - (Subtraction)
+    * (Multiplication)
+    / (Division → gives quotient)
+    % (Modulo → gives remainder)
+
+2. Relational Operators (Return true/false)
+    == (Equal to)
+    != (Not equal to)
+    > (Greater than)
+    < (Less than)
+    >= (Greater or equal)
+    <= (Less or equal)
+
+3. Logical Operators
+    && (Logical AND → true if both true)
+    || (Logical OR → true if at least one true)
+    ! (Logical NOT → reverses result)
+
+4.Assignment Operators
+    = (Assign)
+    += (Add and assign → a+=5 means a=a+5)
+    -= (Subtract and assign)
+    *= (Multiply and assign)
+    /= (Divide and assign)
+    %= (Modulo and assign)
+
+5. Unary Operators
+    ++a (PreIncrement → increases value by 1 and then use)
+    ++a (PostIncrement → use and then increases value by 1)
+    --a (PreDecrement → decreases value by 1 and then use)
+    a-- (PostDecrement → use and then decreases value by 1)
+
+6. Bitwise Operators
+These work on binary representations of numbers.
+    & (Bitwise AND)
+    | (Bitwise OR)
+    ^ (Bitwise XOR → true if bits are different)
+    ~ (Bitwise NOT → flips bits)
+    << (Left shift → multiply by 2)
+    >> (Right shift → divide by 2)
+    >>> (Unsigned right shift → fills with 0s)
+
+---------------------------------------------------------------------
+
+-Binary Number System in Java
+
+-Binary numbers use base 2 (only 0 and 1).
+-Java internally stores numbers in binary format (but displays them in decimal by default).
+-Since Java 7, you can write binary numbers using prefix 0b or 0B.
+
+-Converting Decimal ↔ Binary
+ Java provides methods in the Integer class:
+ Ex:
+     int num = 25;
+     // Decimal to Binary
+     System.out.println(Integer.toBinaryString(num)); // 11001
+     // Decimal to Octal
+     System.out.println(Integer.toOctalString(num)); // 31
+     // Decimal to Hexadecimal
+     System.out.println(Integer.toHexString(num)); // 19
+
+==================================================================================================
