@@ -1,0 +1,36 @@
+#Sorting in Java
+-Sorting means arranging data in a specific order (either ascending or descending).
+
+1.Bubble Sort
+-Bubble Sort is a simple comparison-based sorting algorithm.
+-It repeatedly goes through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+-After each pass, the largest element “bubbles up” to the end of the array (like bubbles rise in water).
+-Time Complexity: O(N2)
+
+------------------------------------------------------------------------------------------------------------------------
+
+2.Selection Sort
+-Selection Sort is a simple sorting algorithm.
+-It works by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning.
+-Think of it like choosing the smallest card from a deck and placing it in the first position, then the next smallest in the second position, and so on.
+-Time complexity: O(N2)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.Insertion Sort
+-Insertion Sort works the way we sort playing cards in our hands.
+-It builds the sorted array one element at a time by inserting each new element into its correct position.
+-It is efficient for small arrays or arrays that are already nearly sorted.
+-Time Complexity: O(N2)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comparison of Simple Sorts
+
+| Algorithm      | Best Case | Worst Case | Average Case | Space |
+| -------------- | --------- | ---------- | ------------ | ----- |
+| Bubble Sort    | O(n)      | O(n²)      | O(n²)        | O(1)  |
+| Selection Sort | O(n²)     | O(n²)      | O(n²)        | O(1)  |
+| Insertion Sort | O(n)      | O(n²)      | O(n²)        | O(1)  |
+
+=============================================================================================================================================================
